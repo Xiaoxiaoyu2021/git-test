@@ -16,3 +16,8 @@ git add base.md
 git commit -m '本次提交描述'
 
 添加到仓库完成  有一个版本
+
+查看所有版本
+git log
+
+2222222222
