@@ -33,6 +33,12 @@ git status
 撤销
 git restore
 
+撤销工作区更改
+git restore file
+
+从暂存区撤销更改
+git restore --staged file
+
 <!-- 版本回退 -->
 用HEAD表示当前版本
 上一个版本就是HEAD^，上上一个版本就是HEAD^^，往上100个版本写成HEAD~100
