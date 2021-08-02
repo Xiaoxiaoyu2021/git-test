@@ -60,3 +60,5 @@ git branch -M main
 
 推送到远程仓库
 git push -u origin main
+
+第二次及后面的推送到远程仓库只需要发git push
