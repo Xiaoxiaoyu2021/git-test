@@ -32,3 +32,10 @@ git status
 
 撤销
 git restore
+
+<!-- 版本回退 -->
+用HEAD表示当前版本
+上一个版本就是HEAD^，上上一个版本就是HEAD^^，往上100个版本写成HEAD~100
+git reset --hard 版本号  可以快速回退到想要的版本
+
+git reflog 所有git 仓库 操作记录
