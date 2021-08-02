@@ -62,3 +62,9 @@ git branch -M main
 git push -u origin main
 
 第二次及后面的推送到远程仓库只需要发git push
+
+------------------
+第一次拿别人项目的所有代码
+git clone git@github.com:Xiaoxiaoyu2021/git-test.git
+以后每次更新代码 用
+git pull
